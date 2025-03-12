@@ -12,10 +12,6 @@ const FIREBASE_MESSAGING_SENDER_ID = import.meta.env.VITE_FIREBASE_MESSAGING_SEN
 const FIREBASE_APP_ID = import.meta.env.VITE_FIREBASE_APP_ID;
 const FIREBASE_MEASUREMENT_ID = import.meta.env.VITE_FIREBASE_MEASUREMENT_ID;
 
-// Log the environment variables to ensure they are loaded correctly
-console.log('Firebase API Key:', FIREBASE_API_KEY);
-console.log('Firebase Auth Domain:', FIREBASE_AUTH_DOMAIN);
-console.log('Firebase Project ID:', FIREBASE_PROJECT_ID);
 
 // Firebase config using the constants
 const firebaseConfig = {
